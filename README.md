@@ -64,7 +64,7 @@
         
 ## Methods:
         * Date updateSettings(settings)
-            settings        - a setting object
+            settings        - a setting object  ** refreshData ** is needed after settings change in order to get the right information
             
         * Date refreshData(utc, locale)
             utc             - true/false: whether return utc date
