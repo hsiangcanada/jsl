@@ -1,10 +1,13 @@
 # jslDate
 
-> JavasScript Library - Date: format date based on giving formation string, and turn string to date
-> Author: Shawn Lin
-> Company: SugarApple.ca
-> Date: Apr 4, 2016
-> Version: 0.0.1
+## A JavasScript Library that add function to original Date object: 
+	So, it's call jslDate. It formats date based on giving format string. Also, it takes from original Date object, string, millisecond, as well as numbers for year, month, day...etc. and turn to date
+	
+## Author and details	
+	Author: Shawn Lin
+	Company: SugarApple.ca
+	Date: Apr 4, 2016
+	Version: 0.0.1
 
 ## Properties:
         * As in Format string as well
