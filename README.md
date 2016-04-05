@@ -1,12 +1,12 @@
 # jslDate
 
-
+--------------------------------------------------------
 >JavasScript Library - Date: format date based on giving formation string, and turn string to date
 >Author: Shawn Lin
 >Company: SugarApple.ca
 >Date: Apr 4, 2016
 >Version: 0.0.1
-
+--------------------------------------------------------
 
 ##Properties:
         * As in Format string as well
