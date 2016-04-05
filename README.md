@@ -1,31 +1,29 @@
 # jslDate
 
---------------------------------------------------------
->JavasScript Library - Date: format date based on giving formation string, and turn string to date
->Author: Shawn Lin
->Company: SugarApple.ca
->Date: Apr 4, 2016
->Version: 0.0.1
---------------------------------------------------------
+> JavasScript Library - Date: format date based on giving formation string, and turn string to date
+> Author: Shawn Lin
+> Company: SugarApple.ca
+> Date: Apr 4, 2016
+> Version: 0.0.1
 
-##Properties:
+## Properties:
         * As in Format string as well
-            - yyyy   - 4 digit year
-            - yy     - 2 digit year
-            - MMM    - month full name
-            - MM     - short month name
-            - M      - first leter of month names
-            - mm     - 2 digit month
-            - m      - 1 or 2 digit month
-            - dd     - 2 digit day
-            - d      - 1 or 2 digit day
-            - WWW    - weekday full name
-            - WW     - short weekday name
-            - W      - first letter of weekday name
-            - ww     - 2 digit day of week
-            - w      - 1 digit day of week
-            - HH     - 2 digit 24 hour
-            - H      - 1 or 2 digit 24 hour
+            yyyy   - 4 digit year
+            yy     - 2 digit year
+            MMM    - month full name
+            MM     - short month name
+            M      - first leter of month names
+            mm     - 2 digit month
+            m      - 1 or 2 digit month
+            dd     - 2 digit day
+            d      - 1 or 2 digit day
+            WWW    - weekday full name
+            WW     - short weekday name
+            W      - first letter of weekday name
+            ww     - 2 digit day of week
+            w      - 1 digit day of week
+            HH     - 2 digit 24 hour
+            H      - 1 or 2 digit 24 hour
             hh     - 2 digits hour
             h      - 1 digit hour
             mi     - 2 digits minute
@@ -42,7 +40,7 @@
             TZ     - time zone full name (if browser supported)
             TS     - time zone abbreviation (if browser supported)
 	
-        settings: available settings
+        * settings: available settings
             year:
             month:
             day:
@@ -61,20 +59,20 @@
             weekdayNames : [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ]
             timePeriod :["AM","PM"]
         
-Methods:
-        Date updateSettings(settings)
+## Methods:
+        * Date updateSettings(settings)
             settings        - a setting object
             
-        Date refreshData(utc, locale)
+        * Date refreshData(utc, locale)
             utc             - true/false: whether return utc date
             locale          - if set, useSystemNames = true, browser support, and not utc, return the name based on the informations
-        String toFormatDateString
+        * String toFormatDateString
             format          - the format that date to format to
             utc             - true/false: whether return utc date
             locale          - if set, useSystemNames = true, browser support, and not utc, return the name based on the informations
 
-Example:
-    JS:
+## Example:
+    * JS:
 	var jslD = new jslDate({format:"WWW, MMM dd, yyyy HH:mi:ss", locale:"en-CA"});
 	var jslD = new jslDate("2016-4-4");
 	jslD.toFormatDateString();
